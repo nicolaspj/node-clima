@@ -1,3 +1,6 @@
+ * para instalar package_json * 
+npm install //para instalar los paquetes
+
 *  comandos utilizados * 
 npm init -y //para crear el .json por default
 npm install colors inquirer // para instalar colores para la terminal y inquirer 
