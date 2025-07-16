@@ -1,4 +1,9 @@
- * para instalar package_json * 
+<p>Esta app lo que hace es buscar un país del globo y lista las capitales o ciudades que tiene la api https://restcountries.com , donde al eligir la capital te da 
+  los datos de latitud ,logitud y clima (si existe la api de openweathermap ) , que la parte del clima esta hardcodeada
+</p>
+
+
+* para instalar package_json * 
 npm install //para instalar los paquetes
 
 *  comandos utilizados * 
