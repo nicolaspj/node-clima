@@ -1,18 +1,29 @@
-<p>Esta app lo que hace es buscar un país del globo y lista las capitales o ciudades que tiene la api https://restcountries.com , donde al eligir la capital te da 
-  los datos de latitud ,logitud y clima (si existe la api de openweathermap ) , que la parte del clima esta hardcodeada
-</p>
+# Nombre del Proyecto
+
+Esta app busca un país del globo y lista las capitales o ciudades que tiene la API [restcountries.com](https://restcountries.com).
+Al elegir una capital, te proporciona los datos de latitud, longitud y clima (si existe la API de OpenWeatherMap).
+La parte del clima está hardcodeada.
+
+## Instalación
+
+Para instalar los paquetes necesarios, sigue estos pasos:
+
+1. Clona el repositorio:
+   ```sh
+   https://github.com/nicolaspj/node-clima.git
 
 
-* para instalar package_json * 
-npm install //para instalar los paquetes
+# Para instalar package_json 
+  ```sh
+  npm install 
 
-*  comandos utilizados * 
+# Comandos utilizados
 npm init -y //para crear el .json por default
 npm install colors inquirer // para instalar colores para la terminal y inquirer 
 npm i axios // documentacion https://www.npmjs.com/package/axios#example
 npm i uuid // para id unicas cuando no existen en las api 
 
-/*env */
+# env
 para guardar apy_keys y demas datos de contraseñas importantes se crea 
 un archivo con terminacion .env en la raiz del proyecto donde en el caso 
 de este proyecto se le asigna el nombre de ejemplo con la pk
